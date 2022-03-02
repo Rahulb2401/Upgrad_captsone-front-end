@@ -41,9 +41,9 @@ const DoctorDetails = ({ doctorDetails }) => {
           Date of Birth: {doctorDetails.dob}
         </Typography>
 
-        <Typography id="details-text">
+        {/* <Typography id="details-text">
           City: {doctorDetails.address.city}
-        </Typography>
+        </Typography> */}
 
         <Typography id="details-text">
           Email: {doctorDetails.emailId}

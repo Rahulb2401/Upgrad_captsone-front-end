@@ -226,6 +226,7 @@ const DoctorList = (props) => {
           style={customStyle2}
           className={classes.paper}
         >
+          {/* hello */}
           <DoctorDetails doctorDetails={doctor} key={doctor.doctorId} />
         </Modal>
       </Grid>
